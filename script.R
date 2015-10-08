@@ -38,8 +38,10 @@ hist(rnorm(10000))
 csv = read.csv("some_file.csv")
 
 # get CCES data
-# if needed, download data from
+# If needed, download data from
 # https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21447
+# Make sure to change the working directory to the folder with the data
+# (Session -> Set Working Directory)
 load("commoncontent2012.RData")
 ls() # list the variables
 cces = x
